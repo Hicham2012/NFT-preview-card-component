@@ -40,7 +40,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: red;
+    background: var(--Very-dark-blue-1);
+}
+
+.attribution a {
+    color: var(--White);
 }
 
 
@@ -49,9 +53,6 @@ body {
 \*****  *****/
 
 @media only screen and (max-width: 1440px) {
-    body {
-        background: var(--Very-dark-blue-1);
-    }
     main {
         margin-top: 1.5rem;
         border-radius: 1em;
@@ -174,7 +175,6 @@ body {
     }
     .attribution a {
         text-decoration: none;
-        color: var(--White);
         font-size: 0.7rem;
     }
 }
@@ -282,7 +282,6 @@ body {
     }
     .attribution a {
         text-decoration: none;
-        color: var(--White);
         font-size: 0.5rem;
     }
     .eye {
